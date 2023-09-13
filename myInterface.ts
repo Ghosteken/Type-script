@@ -34,3 +34,13 @@ const hiteshh: Admin = {
 
 
 hiteshh.email ='d@a.com';
+
+interface Person {
+    name: string;
+    age: number;
+}
+
+const john: Person = {
+    name: "John",
+    age: 30,
+};

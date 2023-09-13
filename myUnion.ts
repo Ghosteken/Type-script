@@ -3,18 +3,19 @@ let score:number | string = 33
 
 type User = {
     name: string,
-    id: number
+    id: number,
+    
 }
 
 
-type Admin = {
+type Admins = {
     username : string,
-    id: number
+    id: number,
 }
 
 //an object or var
 
-let hitesh: User | Admin = {name: 'hitesh', id:565}
+let hitesh: User | Admins = {name: 'hitesh', id:565}
 
 //can be redefined here to admin
 hitesh = {username: 'hitesh', id:65}

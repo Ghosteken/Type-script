@@ -1,6 +1,6 @@
-import { number } from "joi"
 
 const superHeros: string[] = []
+
 // const heroPowers: number[] = []
 
 
